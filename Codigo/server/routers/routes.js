@@ -1,0 +1,9 @@
+app.use('/members', membersRouter);
+app.use('/events', eventsRouter);
+app.use('/bands', bandsRouter);
+app.use('/users', usersRouter);
+app.use('/escala', cargosRouter);
+app.use('/escala-principal', scalesRouter);
+app.use('/volunteers', volunteersRouter);
+app.use('/levitas', levitasRouter)
+app.use('/unavailable', unavailableRouter)

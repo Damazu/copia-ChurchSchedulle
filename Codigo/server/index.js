@@ -1,5 +1,3 @@
-// aqui eu sugiro apenas iniciar o servidor e chamar (criando) um arquivo routes.js para passar as rotas iniciais/principais
-
 import express from 'express';
 import membersRouter from './routers/membersRoute.js';
 import eventsRouter from './routers/eventsRoute.js';
